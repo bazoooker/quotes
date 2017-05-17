@@ -1,19 +1,18 @@
-.main-nav {
-	position: fixed;
-	display: inline-block;
-	top: 59px;
-	right: 200px;
+.nav {
+	position: relative;
+	float: right;
+	margin: 22px 100px 0 0;
 	width: 50px;
 	height: 36px;
 	transition: 300ms;
 	z-index: 10;
 		
 	// элементы
-	.main-nav__menu {
+	.nav__menu {
 		display: block;
 		width: 100%;
 		height: 100%;
-		color: red;
+		color: #fff;
 		text-decoration: none;
 		font-size: 15px;
 		line-height: 36px;
@@ -30,7 +29,7 @@
 		left: 0;
 		width: 100%;
 		height: 4px;
-		background-color: red;
+		background-color: #fff;
 		}
 
 		&::after {
@@ -40,13 +39,13 @@
 		left: 0;
 		width: 100%;
 		height: 4px;
-		background-color: red;
+		background-color: #fff;
 		}
 	}
 }
 
 
-.main-nav-full {
+.nav-full {
 	position: fixed;
 	width: 100%;
 	height: 100%;
