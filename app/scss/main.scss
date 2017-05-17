@@ -1,25 +1,8 @@
+@import "base/_reset";
+@import "base/_scale";
 @import 'base/fonts';
 
-.container {
-	width: 1400px;
-	height: auto;
-}
 
-// малый нав, статично расположенный в верхнем правом углу
-.nav {
-	position: static;
-	top: 58px;
-	right: 102px;
-}
-
-// нав развернутый на страницу
-.nav-full {
-	position: static;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	width: 100%;
-	height: 100%;
-}
-
+// блоки
+@import 'block/nav';
+@import 'block/header';
