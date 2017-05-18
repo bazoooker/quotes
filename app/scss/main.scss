@@ -1,6 +1,7 @@
 @import "base/_reset";
 @import "base/_scale";
 @import 'base/fonts';
+@import 'block/var';
 
 
 // блоки
@@ -8,8 +9,18 @@
 @import 'block/container';
 
 
+
 // секции в порядке следования
-// @import 'block/header';
 @import 'block/hero';
 @import 'block/header';
 @import 'block/description';
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: $main-font;
+}
+
+.section-heading {
+	font-size: 60px;
+	font-weight: 700;
+}
+

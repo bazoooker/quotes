@@ -1,11 +1,95 @@
-$main-font: 'Raleway', sans-serif;
-$second-font: 'Montserrat', sans-serif;
 
-h1, h2, h3, h4, h5, h6, p {
-	font-family: $main-font;
+
+// Raleway
+@font-face {
+  font-family: 'Raleway';
+  src: url('../../fonts/raleway/Raleway-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+	@font-face {
+	  font-family: 'Raleway';
+	  src: url('../../fonts/raleway/Raleway-ThinItalic.ttf') format('truetype');
+	  font-weight: 100;
+	  font-style: italic;
+	}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../../fonts/raleway/Raleway-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
 }
 
-.section-heading {
-	font-size: 60px;
-	font-weight: 700;
+	@font-face {
+	  font-family: 'Raleway';
+	  src: url('../../fonts/raleway/Raleway-ExtraLightItalic.ttf') format('truetype');
+	  font-weight: 200;
+	  font-style: italic;
+	}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../../fonts/raleway/Raleway-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../../fonts/raleway/Raleway-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../../fonts/raleway/Raleway-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+	@font-face {
+	  font-family: 'Raleway';
+	  src: url('../../fonts/raleway/Raleway-MediumItalic.ttf') format('truetype');
+	  font-weight: 500;
+	  font-style: italic;
+	}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../../fonts/raleway/Raleway-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../../fonts/raleway/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+	@font-face {
+	  font-family: 'Raleway';
+	  src: url('../../fonts/raleway/Raleway-BoldItalic.ttf') format('truetype');
+	  font-weight: 700;
+	  font-style: italic;
+	}
+
+// Montserrat
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../fonts/montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
