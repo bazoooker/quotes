@@ -1,19 +1,31 @@
 .description {
-	text-align: center;	
+	text-align: center;
+	.description__wrapper {
+		max-width: 970px;
+		display: block;
+		margin: 0 auto;
+		padding: 88px 20px 105px 20px;
+	}
+	.description__heading {
+		margin-bottom: 50px;
+		font-size: 60px;
+   		font-weight: 700;
+	}	
 	.description__subheading {
 	 	font-weight: 100;
 	 	font-size: 60px;
-	 }
+	 	margin-bottom: 22px;
+ 	}
 	.description__sub-subheading {
 		font-size: 20px;
-		font-weight: 400;
+		font-weight: 600;
 		letter-spacing: 1px;
+		margin-bottom: 47px;
 	}
 	.description__more {
-		display: block;
-		margin: 0 auto;
-		padding: 0px 20px;
-		max-width: 970px;
+		font-weight: 400;
+		letter-spacing: 1px;
+		margin-bottom: 47px;
 	}
 }
 
