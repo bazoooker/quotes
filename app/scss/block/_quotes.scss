@@ -1,0 +1,27 @@
+.quotes {
+	background: url(../../img/boy-n-girl-full.jpg) center center no-repeat;
+	background-size: cover;
+	height: 546px;
+	.quotes__slider-inner {
+		padding-right: 200px;
+		
+	}
+	.quotes__slider-wrapper {
+		width: 50%;
+		float: left;
+	}
+	.quotes__item {
+		font-size: 36px;
+		font-family: $main-font;
+		font-weight: 700;
+		margin-bottom: 73px;
+		letter-spacing: 1px;
+		line-height: 40px;
+	}
+		.quotes__author {
+		font-size: 36px;
+		font-family: $main-font;
+		font-weight: 200;
+		font-style: normal;
+	}
+}
