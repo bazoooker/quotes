@@ -2,19 +2,20 @@
 @import "base/_scale";
 @import 'base/fonts';
 @import 'block/var';
+@import 'block/mixin';
 
 // блоки
 @import 'block/nav';
 @import 'block/container';
 @import 'block/line-deco';
-
-
+@import 'block/reason';
 
 // секции в порядке следования
 @import 'block/hero';
 @import 'block/header';
 @import 'block/description';
 @import 'block/quotes';
+@import 'block/reasons';
 
 h1, h2, h3, h4, h5, h6, p {
 	font-family: $main-font;

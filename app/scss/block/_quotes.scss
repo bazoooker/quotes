@@ -2,13 +2,15 @@
 	background: url(../../img/boy-n-girl-full.jpg) center center no-repeat;
 	background-size: cover;
 	height: 546px;
+	overflow: auto;
+
 	.quotes__slider-inner {
 		padding-right: 200px;
 		
 	}
 	.quotes__slider-wrapper {
 		width: 50%;
-		float: left;
+		display: inline-block;
 	}
 	.quotes__item {
 		font-size: 36px;

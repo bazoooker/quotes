@@ -1,0 +1,15 @@
+.reasons {
+	.reasons__heading {
+		@include heading-standart;
+		margin-top: 115px;		
+	}
+	.reasons__wrapper {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.reasons__line-deco {
+		margin: 25px 0 78px 0;
+	}	
+}
