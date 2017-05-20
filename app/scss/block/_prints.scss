@@ -1,0 +1,46 @@
+.prints {
+	.prints__heading {
+		@include heading-standart;
+		margin-top: 115px;		
+	}
+	.prints__wrapper {
+		width: 100%;
+		// display: flex;
+		// flex-direction: row;
+		// flex-wrap: wrap;
+		height: 760px;
+	}
+
+	.prints__item {
+		background-color: gray;
+		border: 1px solid red;
+		float: left
+	}
+
+	.prints__item-1 {
+		width: 560px;
+		height: 760px;
+	}
+	.prints__item-2 {
+		float: right;
+		width: 740px;
+		height: 370px;
+	}
+	.prints__item-3 {
+		float: right;
+		margin-left: 79px;
+		margin-top: 50px;		
+		width: 330px;
+		height: 340px;
+	}
+	.prints__item-4 {
+		float: right;
+		margin-top: 50px;
+		width: 330px;
+		height: 340px;
+	}
+
+	.prints__line-deco {
+		margin: 25px 0 78px 0;
+	}	
+}
