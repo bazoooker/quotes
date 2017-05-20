@@ -3,14 +3,3 @@
 	font-weight: 700;
 }
 
-@mixin clearfix {
-	&::after {
-		content: "";
-		display: block;
-		clear: both;
-	}
-}
-
-.clearfix {
-	@include clearfix;
-}
