@@ -18,9 +18,21 @@
 @import 'block/reasons';
 @import 'block/quote-of-the-day';
 @import 'block/prints';
+@import 'block/footer';
+@import 'block/copyright';
 
-h1, h2, h3, h4, h5, h6, p {
+// h1, h2, h3, h4, h5, h6, p {
+// 	font-family: $main-font;
+// }
+
+.main {
 	font-family: $main-font;
+}
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .section-heading {

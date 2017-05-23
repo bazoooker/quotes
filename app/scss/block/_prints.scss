@@ -1,7 +1,8 @@
 .prints {
+	background-color: $light-blue;
+	padding: 102px 0 122px 0;
 	.prints__heading {
-		@include heading-standart;
-		margin-top: 115px;		
+		@include heading-standart;		
 	}
 	.prints__wrapper {
 		width: 100%;
