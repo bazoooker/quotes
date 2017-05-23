@@ -92,4 +92,27 @@
   font-style: normal;
 }
 
+// Lato
+@font-face {
+  font-family: 'Lato';
+  src: url('../../fonts/lato/Lato-Bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../../fonts/lato/Lato-Black.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+// Georgia
+@font-face {
+  font-family: 'Lato';
+  src: url('../../fonts/georgia/georgia.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 

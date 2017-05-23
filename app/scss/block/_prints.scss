@@ -12,32 +12,106 @@
 	}
 
 	.prints__item {
-		background-color: gray;
-		border: 1px solid red;
-		float: left
+		position: relative;
+		float: left;
+		overflow: hidden;
+		.prints__item__buy-link {
+			@include prints__item-link;
+			font-size: 20px;
+			bottom: 34px;
+			left: 38px;
+		}
+		.prints__item__share-link {
+			@include prints__item-link;
+			font-size: 15px;
+			bottom: 34px;
+			right: 38px;
+			padding-right: 40px;
+			background: url(../../img/share-arrow.png) center right no-repeat;
+		}
+
+
+	}
+
+	.prints__item:hover	.prints__item__buy-link	 {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	.prints__item:hover .prints__item__share-link {
+		transform: translateY(0);
+		opacity: 1;
 	}
 
 	.prints__item-1 {
 		width: 560px;
 		height: 760px;
+		background: url(../../img/poster-bg-1.jpg) center center no-repeat;
 	}
 	.prints__item-2 {
 		float: right;
 		width: 740px;
 		height: 370px;
+		background: url(../../img/poster-bg-2.jpg) center center no-repeat;
+		
+	}
+	.prints__item-2__inner {
+		margin-top: 5em;
+		margin-left: 4.3em;
+		blockquote {
+			font-family: serif;
+			font-size: 36px;
+			font-style: italic;
+			font-weight: 600;
+			line-height: 44px;
+		}
+		cite {
+			font-size: 20px;
+			font-family: 'Georgia', serif;
+			font-style: normal;
+			font-weight: 200;
+			line-height: 44px;
+		}
 	}
 	.prints__item-3 {
+		float: right;
+		margin-top: 50px;
+		width: 330px;
+		height: 340px;
+		background: url(../../img/poster-bg-3.jpg) center center no-repeat;
+		
+	}
+
+	.prints__item-3__inner {
+		text-align: center;
+		margin-top: 2em;
+		blockquote {
+			font-family: sans-serif;
+			font-size: 40px;
+		    font-weight: 600;
+		    line-height: 44px;
+		    text-transform: uppercase;
+		}
+	}
+	
+	.prints__item-4 {
 		float: right;
 		margin-left: 79px;
 		margin-top: 50px;		
 		width: 330px;
 		height: 340px;
+		background: url(../../img/poster-bg-4.jpg) center center no-repeat;
 	}
-	.prints__item-4 {
-		float: right;
-		margin-top: 50px;
-		width: 330px;
-		height: 340px;
+	.prints__item-4__inner {
+		text-align: center;
+		margin-top: 10em;
+		blockquote {
+			font-family: 'Lato', sans-serif;
+			color: #fff;
+			font-size: 40px;
+		    font-weight: 600;
+		    line-height: 44px;
+		    text-transform: uppercase;
+		}
 	}
 
 	.prints__line-deco {
