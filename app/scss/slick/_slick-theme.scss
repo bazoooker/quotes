@@ -13,6 +13,7 @@ $slick-loader-path: "./" !default;
 $slick-arrow-color: white !default;
 $slick-dot-color: black !default;
 $slick-dot-color-active: #fff !default;
+$slick-dot-color-active2: #949088 !default;
 $slick-prev-character: "\2190" !default;
 $slick-next-character: "\2192" !default;
 $slick-dot-character: "\2022" !default;
@@ -21,6 +22,7 @@ $slick-opacity-default: 0.75 !default;
 $slick-opacity-on-hover: 1 !default;
 $slick-opacity-not-active: 0.25 !default;
 $slick-color-not-active: #000 !default;
+$slick-color-not-active2: transparent !default;
 
 @function slick-image-url($url) {
     @if function-exists(image-url) {
@@ -191,6 +193,73 @@ $slick-color-not-active: #000 !default;
         }
         &.slick-active button:before {
             background-color: $slick-dot-color-active;
+            opacity: $slick-opacity-default;
+        }
+    }
+}
+
+.quotes__slider {
+    margin-bottom: 0;
+}
+
+.quotes__slider_dots {
+    position: absolute;
+    bottom: -83px;
+    list-style: none;
+    display: block;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    li {
+        position: relative;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        margin: 0 0px;
+        padding: 0;
+        cursor: pointer;
+        button {
+            border: 0;
+            background: transparent;
+            border-radius: 50%;
+            display: block;
+            height: 20px;
+            width: 20px;
+            outline: none;
+            line-height: 0px;
+            font-size: 0px;
+            color: transparent;
+            padding: 5px;
+            cursor: pointer;
+            &:hover, &:focus {
+                outline: none;
+                &:before {
+                    opacity: $slick-opacity-on-hover;
+                }
+            }
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: "";
+                border-radius: 50%;
+                width: 10px;
+                height: 10px;
+                font-family: $slick-font-family;
+                font-size: $slick-dot-size;
+                line-height: 20px;
+                text-align: center;
+                background-color: transparent;
+                border: 1px solid #949088;
+                background-color: $slick-color-not-active2;
+                // opacity: $slick-color-not-active;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        }
+        &.slick-active button:before {
+            background-color: $slick-dot-color-active2;
             opacity: $slick-opacity-default;
         }
     }
