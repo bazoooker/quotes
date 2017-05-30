@@ -1,10 +1,13 @@
+// стили блока
+
 .hero {
 	height: 1000px;
 	width: 100%;
 	background: url(../../img/hero-bg.jpg) no-repeat;
 	background-size: cover;
 	text-align: right;
-	// padding-right: 15em;
+	
+	// дочерние элементы
 	.hero__main-heading {
 		color: #fff;
 		font-size: 220px;
@@ -22,3 +25,59 @@
 		margin: 250px 0 0 0;
 	}
 }
+
+
+@media all and (max-width: 1024px) {
+	
+	.hero {
+		text-align: center;
+		background: url(../../img/hero-bg.jpg) no-repeat 20% 50%;
+	
+		// дочерние элементы
+		.hero__main-heading {
+			font-size: 180px;
+		}
+		.hero__subheading {
+			font-size: 50px;			
+		}		
+	}
+
+} //media-query end
+
+@media all and (max-width: 640px) {
+	
+	.hero {
+		background: url(../../img/hero-bg.jpg) no-repeat 20% 50%;
+
+		// дочерние элементы
+		.hero__main-heading {
+			font-size: 130px;
+		}
+		.hero__subheading {
+			font-size: 35px;
+		}
+		.hero__offer {
+			margin: 250px 0 0 0;
+		}
+	}
+
+} //media-query end
+
+@media all and (max-width: 480px) {
+	
+	.hero {
+		background: url(../../img/hero-bg.jpg) no-repeat 20% 50%;
+			
+		// дочерние элементы
+		.hero__main-heading {
+			font-size: 100px;
+		}
+		.hero__subheading {
+			font-size: 30px;
+		}
+		.hero__offer {
+			margin: 250px 0 0 0;
+		}
+	}
+
+} //media-query end

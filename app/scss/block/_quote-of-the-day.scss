@@ -36,3 +36,19 @@
 		}
 	}
 }
+
+
+
+
+// медиа-запросы
+@media all and (max-width: 1024px) {
+	
+	.quote-of-the-day {
+
+		.quote-of-the-day__quote {
+			font-size: 35px;
+			line-height: 45px;
+
+		}
+	}
+} //media-query end

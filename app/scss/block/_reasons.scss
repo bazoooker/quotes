@@ -13,3 +13,26 @@
 		margin: 25px 0 78px 0;
 	}	
 }
+
+
+
+
+// медиа-запросы
+@media all and (max-width: 1024px) {
+	
+.reasons {
+	.reasons__heading {
+		@include heading-standart;
+		margin-top: 115px;		
+	}
+	.reasons__wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+	.reasons__line-deco {
+		margin: 25px 0 78px 0;
+	}	
+}
+
+} //media-query end
+

@@ -1,3 +1,5 @@
+// кнопка меню
+
 .nav {
 	position: relative;
 	float: right;
@@ -59,7 +61,7 @@
 
 		&::after {
 		transform-origin: 50% 50%;
-		transform:  translateY(-15px)
+		transform:  translateY(-16px)
 					rotate(-225deg);		
 		transition: 300ms;
 		}
@@ -89,3 +91,33 @@ button.nav__menu:focus {
 	background-color: black;
 	color: #fff;
 }
+
+// медиа-запросы
+
+@media all and (max-width: 1024px) {
+	
+	.nav {
+		position: relative;
+		margin: 22px 60px 0 0;
+	}
+
+
+} //media-query end
+
+@media all and (max-width: 640px) {
+	
+	.nav {
+		position: relative;
+		margin: 22px 40px 0 0;
+	}
+
+} //media-query end
+
+@media all and (max-width: 480px) {
+	
+	.nav {
+		position: relative;
+		margin: 22px 20px 0 0;
+	}
+
+} //media-query end

@@ -7,6 +7,53 @@
 		margin: 0 0 0 100px;
 		width: 200px;
 		height: 80px;
-		// background: url(../../img/logo.jpg) no-repeat;
 	}
 }
+
+@media all and (max-width: 1024px) {
+	
+	.header {
+	height: 130px;
+	width: 100%;
+	padding-top: 50px;
+	.header__logo {
+		float: left;
+		margin: 0 0 0 60px;
+		width: 200px;
+		height: 80px;
+	}
+}
+
+} //media-query end
+
+@media all and (max-width: 640px) {
+	
+	.header {
+	height: 130px;
+	width: 100%;
+	padding-top: 50px;
+	.header__logo {
+		float: left;
+		margin: 0 0 0 40px;
+		width: 200px;
+		height: 80px;
+	}
+}
+
+} //media-query end
+
+@media all and (max-width: 480px) {
+	
+	.header {
+	height: 130px;
+	width: 100%;
+	padding-top: 50px;
+	.header__logo {
+		float: left;
+		margin: 0 0 0 20px;
+		width: 200px;
+		height: 80px;
+	}
+}
+
+} //media-query end
