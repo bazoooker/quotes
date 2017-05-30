@@ -26,6 +26,10 @@ $(function(){
 });
 
 $("document").ready(function() {
-	$(".reasons__wrapper").find(".reason__heading").css("text-align", "center")
-	
+	$(".nav__menu").on("click", function() {
+    $('.nav-main').toggleClass('nav-main_on');
+    $('.nav__menu').toggleClass('nav__menu_close');
+    $('.nav__menu_text').toggleClass('nav__menu_text_close');
+    // $('.nav__menu').empty();
+  });	
 });
