@@ -8,9 +8,6 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel='stylesheet' href='css/main.css' />
-  
-  <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:100i,200,300,400,400i,500,600,700" rel="stylesheet"> -->
-
 </head>
 
 <body class="main">
@@ -18,20 +15,40 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
+  
+
   <!-- navigation  -->
+
+<!-- main-menu -->
+  <section class="nav-main">
+    <div class="container">
+      <nav>
+        <ul class="nav-main__nav">
+          <li><a href="#">home</a></li>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">gallery</a></li>
+          <li><a href="#">events</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
   <section class="hero">
     <div class="container">
 
       <header class="header">
         <div class="header__logo">
           <a href="#">
-            <img src="../../img/logo.jpg" alt="quotes site">
+            <img src="img/logo.jpg" alt="quotes site">
           </a>
         </div>
 
         <div class="nav">
-          <a class="nav__menu" href="#">
-            menu
+          <button class="nav__menu">
+            <span class="nav__menu_text">menu</span>
           </a>
         </div>
       </header>
@@ -83,18 +100,53 @@
   <!-- section 2 Quotes -->
   <section class="quotes"> 
     <div class="container">
-      <div class="quotes__slider-wrapper">
-        <div class="quotes__slider-inner">
-          <blockquote class="quotes__item">
-            I love people who make me laugh. I honestly think it’s the thing I like most, to laugh. It cures a multitude of ills. It's probably the most important thing in a person. 
-          </blockquote>
-          <cite class="quotes__author">
-            Audrey Hepburn
-          </cite>
-        </div>        
-      </div>      
+      <div class="quotes__wrapper">
+
+        <div class="quotes__slider">
+          <div class="quotes__slider-item">
+            <blockquote class="quotes__item">
+              I love people who make me laugh. I honestly think it’s the thing I like most, to laugh. It cures a multitude of ills. 
+            </blockquote>
+            <cite class="quotes__author">
+              Audrey Hepburn
+            </cite>
+          </div>
+
+          <div class="quotes__slider-item">
+            <blockquote class="quotes__item">
+              Lorem ipsum dolor amet, onsectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            </blockquote>
+            <cite class="quotes__author">
+              Michelangelo
+            </cite>
+          </div>
+
+          <div class="quotes__slider-item">
+            <blockquote class="quotes__item">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua.  
+            </blockquote>
+            <cite class="quotes__author">
+              Donatello
+            </cite>
+          </div> 
+
+          <div class="quotes__slider-item">
+            <blockquote class="quotes__item">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod adipisicing
+               tempor incididunt ut labore et dolore magna aliqua.  
+            </blockquote>
+            <cite class="quotes__author">
+              Raphael Sabatini
+            </cite>
+          </div> 
+
+        </div>  
+      </div>    
     </div>    
   </section>
+
+  
 
   <!-- section 3 reasons to be happy -->
   <section class="reasons">
@@ -356,7 +408,7 @@
 
   </footer>
 
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
    -->
 
@@ -364,6 +416,7 @@
   <script src='js/lib/slick/slick.js'></script>
   <script src='js/script.js'></script>
   
+
 </body>
 
 </html>

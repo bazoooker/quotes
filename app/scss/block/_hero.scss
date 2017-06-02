@@ -3,7 +3,7 @@
 .hero {
 	height: 1000px;
 	width: 100%;
-	background: url(../../img/hero-bg.jpg) no-repeat;
+	background: url(../img/hero-bg.jpg) no-repeat;
 	background-size: cover;
 	text-align: right;
 	
@@ -31,7 +31,7 @@
 	
 	.hero {
 		text-align: center;
-		background: url(../../img/hero-bg.jpg) no-repeat 20% 50%;
+		background: url(../img/hero-bg.jpg) no-repeat 20% 50%;
 	
 		// дочерние элементы
 		.hero__main-heading {
@@ -47,7 +47,7 @@
 @media all and (max-width: 640px) {
 	
 	.hero {
-		background: url(../../img/hero-bg.jpg) no-repeat 20% 50%;
+		background: url(../img/hero-bg.jpg) no-repeat 20% 50%;
 
 		// дочерние элементы
 		.hero__main-heading {
@@ -66,7 +66,7 @@
 @media all and (max-width: 480px) {
 	
 	.hero {
-		background: url(../../img/hero-bg.jpg) no-repeat 20% 50%;
+		background: url(../img/hero-bg.jpg) no-repeat 20% 50%;
 			
 		// дочерние элементы
 		.hero__main-heading {
